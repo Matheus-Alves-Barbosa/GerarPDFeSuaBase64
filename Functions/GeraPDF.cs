@@ -1,0 +1,29 @@
+using iText.Kernel.Geom;
+using iText.Kernel.Pdf;
+using iText.Layout;
+using iText.Layout.Element;
+using System;
+using System.IO;
+
+namespace GerarPDF
+{
+    public static class GerarPDF
+    {
+        public static byte[] GeraPDF()
+        {
+            MemoryStream ms = new MemoryStream();
+            PdfWriter pw = new PdfWriter(ms);
+            PdfDocument pdf = new PdfDocument(pw);
+            Document doc = new Document(pdf, PageSize.A4);
+            doc.Add(new Paragraph("PDF GERADO PARA TESTE").SetFontSize(30).SetBold().SetTextAlignment(iText.Layout.Properties.TextAlignment.CENTER));
+            doc.Add(new Paragraph("PDF GERADO EM " + DateTime.Now.ToString("dd-MM-yyyy hh:mm:ss")).SetFontSize(15).SetBold().SetTextAlignment(iText.Layout.Properties.TextAlignment.CENTER));
+            doc.Add(new Paragraph("GUID GERADO PARA ESTE PDF " + Guid.NewGuid().ToString()).SetFontSize(15).SetBold().SetTextAlignment(iText.Layout.Properties.TextAlignment.CENTER));
+            doc.Close();
+            byte[] byteStream = ms.ToArray();
+            ms = new MemoryStream();
+            ms.Write(byteStream, 0, byteStream.Length);
+            ms.Position = 0;
+            return ms.ToArray();
+        }
+    }
+}
