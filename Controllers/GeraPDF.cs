@@ -19,10 +19,6 @@ namespace GerarPDFeBase64.Controllers
             doc.Add(new Paragraph("PDF GERADO EM " + DateTime.Now.ToString("dd-MM-yyyy hh:mm:ss")).SetFontSize(15).SetBold().SetTextAlignment(iText.Layout.Properties.TextAlignment.CENTER));
             doc.Add(new Paragraph("GUID GERADO PARA ESTE PDF " + Guid.NewGuid().ToString()).SetFontSize(15).SetBold().SetTextAlignment(iText.Layout.Properties.TextAlignment.CENTER));
             doc.Close();
-            byte[] byteStream = ms.ToArray();
-            ms = new MemoryStream();
-            ms.Write(byteStream, 0, byteStream.Length);
-            ms.Position = 0;
             return ms.ToArray();
         }
     }
