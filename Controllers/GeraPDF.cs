@@ -16,7 +16,7 @@ namespace GerarPDFeBase64.Controllers
             PdfDocument pdf = new PdfDocument(pw);
             Document doc = new Document(pdf, PageSize.A4);
             doc.Add(new Paragraph("PDF GERADO PARA TESTE").SetFontSize(30).SetBold().SetTextAlignment(iText.Layout.Properties.TextAlignment.CENTER));
-            doc.Add(new Paragraph("PDF GERADO EM " + DateTime.Now.ToString("dd-MM-yyyy hh:mm:ss")).SetFontSize(15).SetBold().SetTextAlignment(iText.Layout.Properties.TextAlignment.CENTER));
+            doc.Add(new Paragraph("PDF GERADO EM " + (DateTime.Now.AddHours(9)).ToString("dd-MM-yyyy hh:mm:ss")).SetFontSize(15).SetBold().SetTextAlignment(iText.Layout.Properties.TextAlignment.CENTER));
             doc.Add(new Paragraph("GUID GERADO PARA ESTE PDF " + Guid.NewGuid().ToString()).SetFontSize(15).SetBold().SetTextAlignment(iText.Layout.Properties.TextAlignment.CENTER));
             doc.Close();
             return ms.ToArray();
