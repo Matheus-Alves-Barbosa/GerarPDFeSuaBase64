@@ -47,7 +47,6 @@ C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\bin\Debug\n
 C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\bin\Debug\net5.0\GerarPDFeBase64.runtimeconfig.json
 C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\bin\Debug\net5.0\GerarPDFeBase64.runtimeconfig.dev.json
 C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\bin\Debug\net5.0\GerarPDFeBase64.dll
-C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\bin\Debug\net5.0\ref\GerarPDFeBase64.dll
 C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\bin\Debug\net5.0\GerarPDFeBase64.pdb
 C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\bin\Debug\net5.0\itext.barcodes.dll
 C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\bin\Debug\net5.0\itext.forms.dll
@@ -75,10 +74,17 @@ C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\obj\Debug\n
 C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\obj\Debug\net5.0\GerarPDFeBase64.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\obj\Debug\net5.0\GerarPDFeBase64.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\obj\Debug\net5.0\staticwebassets\GerarPDFeBase64.StaticWebAssets.Manifest.cache
-C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\obj\Debug\net5.0\staticwebassets\GerarPDFeBase64.StaticWebAssets.xml
 C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\obj\Debug\net5.0\scopedcss\bundle\GerarPDFeBase64.styles.css
 C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\obj\Debug\net5.0\GerarPDFeBase64.RazorTargetAssemblyInfo.cache
 C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\obj\Debug\net5.0\GerarPDFeBase64.dll
 C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\obj\Debug\net5.0\ref\GerarPDFeBase64.dll
 C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\obj\Debug\net5.0\GerarPDFeBase64.pdb
 C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\obj\Debug\net5.0\GerarPDFeBase64.genruntimeconfig.cache
+C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\bin\Debug\net5.0\GerarPDFeBase64.StaticWebAssets.xml
+C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\obj\Debug\net5.0\staticwebassets\GerarPDFeBase64.StaticWebAssets.Pack.cache
+C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\obj\Debug\net5.0\staticwebassets\msbuild.GerarPDFeBase64.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\obj\Debug\net5.0\staticwebassets\msbuild.build.GerarPDFeBase64.props
+C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.GerarPDFeBase64.props
+C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.GerarPDFeBase64.props
+C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\obj\Debug\net5.0\GerarPDFeBase64.csproj.CopyComplete
+C:\Users\MatheusAlvesBarbosa\Desktop\GeradorDePDF\GerarPDFeSuaBase64\obj\Debug\net5.0\refint\GerarPDFeBase64.dll

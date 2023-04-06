@@ -8,14 +8,14 @@ namespace GerarPDFeBase64.Controllers
     [Route("[controller]")]
     public class GerarPDFBase64Controller : ControllerBase
     {
-        [HttpGet("{qtd}")]
-        public List<string> GeraPDFBase64(int qtd)
+        [HttpGet]
+        public List<string> GeraPDFBase64()
         {
-            List<string> lbase64 = new List<string>();
-            for (int i = 1; i <= qtd; i++)
+            List<string> lbase64 = new()
             {
-                lbase64.Add(Convert.ToBase64String(GerarPDF.GeraPDF()));
-            }
+                Convert.ToBase64String(GerarPDF.GeraPDF())
+            };
+
             return lbase64;
         }
     }
